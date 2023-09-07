@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: lincy
+    url: jdbc:mysql://localhost:3306/blog
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+
+
+app: 
+ messages:
+    signUpSuccessMsg: Data Saved Succefully...
+    signUpErrorMsg: Account already Exists...
+    loginInvalidCredentialsMsg: Invalid Credentials  
+    blogSavedMsg: Blog Saved...
+    blogErrMsg: Something Went Wrong...
+    blogDeletedMsg: "Blog Deleted..."
+    commentDeletedMsg: Comment Deleted...
